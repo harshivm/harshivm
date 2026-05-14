@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Core identity
-          user: YOUR_GITHUB_USERNAME
+          user: harshivm
           template: classic
           base: header, activity, community, repositories, metadata
 
@@ -29,12 +29,12 @@ jobs:
           plugin_habits_charts: yes
           plugin_habits_facts: yes
           plugin_topics: yes
-          plugin_music: yes
-          plugin_music_provider: apple
-          plugin_music_mode: recent
-          plugin_music_limit: 2
-          plugin_pagespeed: yes
-          plugin_pagespeed_url: https://YOUR-WEBSITE.com
+          # plugin_music: yes
+          # plugin_music_provider: apple
+          # plugin_music_mode: recent
+          # plugin_music_limit: 2
+          # plugin_pagespeed: yes
+          # plugin_pagespeed_url: https://YOUR-WEBSITE.com
           plugin_pagespeed_screenshot: yes
           plugin_stars: yes
           plugin_stars_limit: 3
